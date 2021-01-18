@@ -1,0 +1,14 @@
+f7-segmented-input {
+}
+
+.list f7-segmented-input {
+  width: 100%;
+  height: var(--f7-input-height);
+  .segmented {
+    color: var(--f7-input-text-color);
+    font-size: var(--f7-input-font-size);
+    background-color: var(--f7-input-bg-color, transparent);
+    padding-left: var(--f7-input-padding-left);
+    padding-right: var(--f7-input-padding-right);
+  }
+}
